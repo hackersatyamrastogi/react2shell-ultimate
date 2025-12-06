@@ -1,0 +1,49 @@
+# Compiled binary files
+nextjs-scanner
+nextjs-rce-scanner
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test files
+*.test
+*.out
+
+# Go workspace files
+go.work
+
+# URL list file (actual scan targets)
+urls.txt
+targets.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Output files
+results/
+*.json
+
+# IDE configuration
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+.claude/
+
+# Cloned repos (for development)
+react2shell-scanner/
+Nextjs_RCE_Exploit_Tool/
+next-cve-2025-66478/
+cve-scanner-research/
